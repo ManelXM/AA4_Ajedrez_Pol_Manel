@@ -49,11 +49,46 @@ void tableroPrint(char tablero[FILAS][COLUMNAS]) {
     }
 }
 
+
+void pedirMovimiento() {
+    int filaOrigen, columnaOrigen;
+    int filaDestino, columnaDestino;
+    std::cout << "Ingrese la fila de la pieza que se tiene que movver: ";
+    std::cin >> filaOrigen;
+    std::cout << "Ingrese la columna de la pieza que se tiene que movver: ";
+    std::cin >> columnaOrigen;
+    std::cout << "Ingrese la fila donde quieres mover la pieza : ";
+    std::cin >> filaDestino;
+    std::cout << "Ingrese la columna donde quieres mover la pieza : ";
+    std::cin >> columnaDestino;
+}
+
+void moverPieza(char tablero[FILAS][COLUMNAS], int filaOrigen, int columnaOrigen, int filaDestino, int columnaDestino) {
+
+    char pieza = tablero[filaOrigen][columnaOrigen];
+
+    if (tablero[filaOrigen][columnaOrigen] != '*') {
+    tablero[filaDestino][columnaDestino] = pieza;
+    }
+}
+
+
+bool esMovimientoValido(char tablero[FILAS][COLUMNAS], int filaOrigen, int columnaOrigen, int filaDestino, int columnaDestino) {
+    
+    
+    
+    return true;
+
+}
+
+
+
+
 int main() {
     char tablero[FILAS][COLUMNAS];
 
     piezas(tablero);
     tableroPrint(tablero);
-
+	pedirMovimiento();
     return 0;
 }
