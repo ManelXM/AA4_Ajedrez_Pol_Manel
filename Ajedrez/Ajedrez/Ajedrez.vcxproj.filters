@@ -18,5 +18,8 @@
     <ClCompile Include="tablero.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Pruebas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
