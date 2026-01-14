@@ -21,5 +21,14 @@
     <ClCompile Include="Pruebas.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="codigoP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="todo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codigoCompleto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
