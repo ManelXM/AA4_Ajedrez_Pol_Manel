@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 
 // Definición de constantes para el tamaño del tablero
 #define FILAS 8
@@ -166,3 +166,4 @@ int main() {
     }
     return 0;
 }
+*/

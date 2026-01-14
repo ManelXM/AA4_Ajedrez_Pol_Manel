@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 
 #define FILAS 8//numero de filas del tablero
 #define COLUMNAS 8//numero de columnas del tablero
@@ -233,3 +233,4 @@ int main() {
 
     return 0;
 }
+*/

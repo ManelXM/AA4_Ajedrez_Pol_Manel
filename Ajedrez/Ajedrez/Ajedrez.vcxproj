@@ -130,7 +130,6 @@
     <ClCompile Include="codigoCompleto.cpp" />
     <ClCompile Include="codigoP.cpp" />
     <ClCompile Include="Pruebas.cpp" />
-    <ClCompile Include="tablero.cpp" />
     <ClCompile Include="todo.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
