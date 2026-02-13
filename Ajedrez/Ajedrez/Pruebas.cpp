@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <cstdlib>
 
 #define FILAS 8
@@ -188,6 +188,8 @@ void moverPeon(char tablero[FILAS][COLUMNAS],
     std::cout << "Movimiento invalido del peon\n";
 }
 
+
+
 // ===== MAIN =====
 int main() {
     char tablero[FILAS][COLUMNAS];
@@ -223,6 +225,7 @@ int main() {
 
     return 0;
 }
+*/
 
 
 
@@ -233,4 +236,3 @@ int main() {
 
 
 
-0001011010001
